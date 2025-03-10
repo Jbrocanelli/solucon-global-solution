@@ -18,5 +18,13 @@ O produto Solucon permite que o usuário tenha uma visão macro e específica de
 #### 🌱 Impacto:
 Nossa solução destaca-se pelo uso de tecnologia e inteligência artificial para abordar um problema global relevante, promovendo a sustentabilidade e auxiliando usuários a reduzirem seu impacto ambiental.
 
+## 📸 Imagens do Protótipo  
+
+**Dashboard principal:**  
+![Dashboard do Solucon](images/Dashboard.jpeg)  
+
+**Gráfico de consumo energético em tempo real:**  
+![Gráfico de Consumo](images/energy-usage-chart.png)  
+
 Equipe: João Brocanelli, Gustavo Sampaio, Pedro Moreno Macoris, Danilo Kioroglo Filho e William Círico.
 
