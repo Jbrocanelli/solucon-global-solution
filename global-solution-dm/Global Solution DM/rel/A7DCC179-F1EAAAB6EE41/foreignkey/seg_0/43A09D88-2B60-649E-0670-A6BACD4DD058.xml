@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43A09D88-2B60-649E-0670-A6BACD4DD058" containerWithKeyObject="3238FC13-4321-916B-623C-F4B6279E37D0" localFKIndex="F26108E0-DF91-BF93-24A3-0780CEB89384" name="T_CHATBOT_INTERACAO_T_VISITA_TECNICA_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>60CAD254-9304-214A-5BA1-BBD4FAED7BD9</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<referredTableLongName>T_VISITA_TECNICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D78C5271-2402-C6FA-4A1B-947F73A18B9B</referredTableID>
+<keyObject>BC75DF24-0C23-6E3A-6C20-03662AD6F9AB</keyObject>
+<referredKeyID>BC75DF24-0C23-6E3A-6C20-03662AD6F9AB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_visita_tecnica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

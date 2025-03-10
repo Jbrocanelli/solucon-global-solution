@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9531FEB4-AB6E-2AA1-781F-A5D5CF78890A" name="T_DESPESA_ENERGIA">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>6EEB3E6D-981A-8CFF-D121-2D062916E972</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_despesa" id="C9C6114C-3E54-8395-2239-484D088FDA49">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>3D61393E-EC7D-4ACF-069E-C68B6F53AFCA</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_despesa" id="8CB4C0D1-5382-AA78-3259-802F959F7BA2">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>E5723976-55E0-B3F9-A463-988B81727FB1</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_despesa" id="1B819A25-287F-B289-0DAC-BCCBA8D33398">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>2F180843-4D40-5B92-721F-B5FEAD93C2FD</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADE7F6B7-5B72-B56E-542B-1A230FBB1D2C" name="T_DESPESA_ENERGIA_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>F9FD9097-7F02-3B9F-BDE9-B3FA9F4B7E61</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9C6114C-3E54-8395-2239-484D088FDA49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

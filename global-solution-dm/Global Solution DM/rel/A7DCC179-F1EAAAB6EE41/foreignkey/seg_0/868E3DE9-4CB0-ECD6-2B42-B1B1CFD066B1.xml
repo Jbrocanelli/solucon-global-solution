@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="868E3DE9-4CB0-ECD6-2B42-B1B1CFD066B1" containerWithKeyObject="F7CCF2DE-48C0-F685-31F6-C16089E71272" localFKIndex="10EED0C2-B1D6-DF31-F01E-F6DCD855190B" name="T_DISPOSITIVO_MEDIDOR_T_AMBIENTE_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>09DB096A-0E1C-95D2-B3C5-F605ECEDC181</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<referredTableLongName>T_AMBIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D78CF734-00BC-AE14-1958-FDDAAA2EC433</referredTableID>
+<keyObject>46464B44-DEFE-E850-4FFD-D9845F78F02E</keyObject>
+<referredKeyID>46464B44-DEFE-E850-4FFD-D9845F78F02E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ambiente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

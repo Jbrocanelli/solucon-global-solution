@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F6B0A33-E183-0228-F44A-1CF59C1FB220" name="T_TECNICO">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:39:17 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tecnico" id="1B1A6C99-CCAC-2A3E-1BD2-B00286054442">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:39:24 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_tecnico" id="EAF3F0B4-076B-F2CB-4474-5A711534CE5E">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:39:58 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tecnico" id="C6D93D7F-38D0-C46B-E881-271B92EF1DDB">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:39:33 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E66F11FD-A4F8-04B5-0074-1F504523C9A2" name="T_TECNICO PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:39:33 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B1A6C99-CCAC-2A3E-1BD2-B00286054442</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

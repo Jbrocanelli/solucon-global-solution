@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A97779F4-3001-58F0-8D44-6AA7783D9481" name="T_EQUIPAMENTOS_MEDIDO">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>DE7E2FE9-F636-F529-8065-E6833991CAF7</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_equipamento" id="0A33E65F-1849-A869-54ED-5D7539F80B69">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>76EF1E74-ECD7-7D8F-C5B8-4C4715E7DD3B</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_dispositivo_medidor" id="EC48B982-857A-74E7-1679-C1233CE3CED5">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>786D772F-B865-918C-E963-45F106230621</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B20A385C-C35F-76B6-48C3-9C4B1C98EB46" referredColumn="5002F00B-0245-4B3B-8FF7-34F6D53BC144"/>
+</associations>
+</Column>
+<Column name="nm_equipamento" id="FC317C5F-4B10-4941-F176-674E6CD417BE">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>21A0F373-D8D4-BE36-E0B4-AD50796D5773</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E358897-3A85-3810-656C-93B9297E6201" name="T_EQUIPAMENTOS_MEDIDO_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>43D310C5-8149-30A0-0C29-F7E806D37487</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A33E65F-1849-A869-54ED-5D7539F80B69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55DA2ED3-2454-4B97-252F-7E14A9CF8735" name="T_EQUIPAMENTOS_MEDIDO__UN">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:50:27 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC317C5F-4B10-4941-F176-674E6CD417BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="104C3DF3-4473-57D9-3383-7A80D2C44363" name="T_EQUIPAMENTOS_MEDIDO__IDX">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EDDAB30D-C2E8-5BF0-77EC-39AB64F5A5BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EC48B982-857A-74E7-1679-C1233CE3CED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DC83CC9-F12A-6897-A8EF-97B1D7175200" name="T_EQUIPAMENTOS_MEDIDO_T_DISPOSITIVO_MEDIDOR_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>EDDAB30D-C2E8-5BF0-77EC-39AB64F5A5BD</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC48B982-857A-74E7-1679-C1233CE3CED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

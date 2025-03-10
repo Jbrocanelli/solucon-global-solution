@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C2033A8-BE4F-6644-B4DA-FB139D06A006" name="T_CONSUMO_ENERGIA">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:02:30 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consumo_energia" id="110A119A-74CA-3424-529C-EA69D1DE493A">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:02:41 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="6B34EDD2-51E9-4C35-AD33-22EAC4ABBF5C">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:40:02 UTC</createdTime>
+<generatorID>518D1154-CCB9-BD55-CD0A-45203592C90F</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<referedAttribute>35E717B2-F567-684E-DAA3-8609D586016B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_despesa" id="499E1510-F01C-8DE0-C0C7-BD03DF4CE3B7">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:48:12 UTC</createdTime>
+<generatorID>58A56C16-53B6-60A4-E266-F0CB4C158A33</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<referedAttribute>3D61393E-EC7D-4ACF-069E-C68B6F53AFCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_consumo_kwh" id="87D70B69-00A1-4787-9343-AA10345449DA">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:03:00 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_consumo_kwh" id="D4118FF3-FCF1-46A1-F4B4-F4E89F7B7B27">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-18 22:05:38 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_medicao" id="8FDC1AB0-4D1C-68B0-249A-38295CBA409E">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 14:10:10 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1116AF59-21E0-AB45-1202-E9E039FD0316" name="T_CONSUMO_ENERGIA PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:02:59 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>110A119A-74CA-3424-529C-EA69D1DE493A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5FE934F-3916-C3DC-911C-BE5BD37304FC" name="T_CHATBOT_INTERACAO">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:25:45 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_chatbot" id="F7E41E89-613E-C4B7-0759-CCEFABAFF60C">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:25:55 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="A4CFA960-0051-CF9D-FA2A-F3FD1DA7DE56">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:38:03 UTC</createdTime>
+<generatorID>76C179F8-9A68-B474-F862-6A7CA35C1BA8</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<referedAttribute>35E717B2-F567-684E-DAA3-8609D586016B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dica_consumo" id="5D2A6834-E36B-AF21-9653-9767EEE66992">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:35:51 UTC</createdTime>
+<generatorID>88ED0554-4B36-A370-3990-54C70471C96B</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<referedAttribute>0DED1B5D-4253-9AA2-CD37-0FB3BD82B4D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_visita_tecnica" id="3C24496E-1AEC-6A00-EEE0-2F5E65909535">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:40:42 UTC</createdTime>
+<generatorID>60CAD254-9304-214A-5BA1-BBD4FAED7BD9</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<referedAttribute>DE468AC4-521B-AED1-25D4-9245FBB2FA3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_interacao" id="017C6301-C90C-010E-9F46-9100B357EEBD">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:26:22 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_interacao" id="FD4432B5-6F5B-BFAC-63F7-E53A4CBD37DB">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:26:43 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CD7C8C9-3E98-B991-DC8C-195835F62E12" name="T_CHATBOT PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-15 13:26:05 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<engineerTo>
+<item key="A7DCC179-7E98-0003-9416-F1EAAAB6EE41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7E41E89-613E-C4B7-0759-CCEFABAFF60C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

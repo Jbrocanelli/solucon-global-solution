@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4605F22-6BCF-92FF-63A5-0365C0177CE1" name="T_DICA_CONSUMO">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>D684220D-59FF-D0F5-7D9A-60F2642CB36C</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dica_consumo" id="F49916DA-2945-5333-C5B8-B2099AF2C762">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>0DED1B5D-4253-9AA2-CD37-0FB3BD82B4D9</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="txt_dica_consumo" id="05FC3233-84C8-ACD9-51E7-F893551013E7">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>37989969-D083-19BA-619E-CE571185C4B4</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_dica_consumo" id="8C651A40-0BCA-FC11-B51C-580B7847869E">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>F11D42BE-72E9-E413-215B-F3492A9A76A9</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC1EC535-7C26-CECB-FF29-BC46C60DAF2B" name="T_DICA_CONSUMO_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>8B9EF16A-028B-34D7-3472-57AB550E1FC2</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F49916DA-2945-5333-C5B8-B2099AF2C762"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19CF8301-3B68-8E4E-33AD-CA364881960D" name="T_CONSUMO_ENERGIA">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>5C2033A8-BE4F-6644-B4DA-FB139D06A006</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consumo_energia" id="F711EA8E-BB86-645C-8F04-DD12376882D8">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>110A119A-74CA-3424-529C-EA69D1DE493A</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="42138673-C082-B4A7-D865-CE0C63A70366">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>6B34EDD2-51E9-4C35-AD33-22EAC4ABBF5C</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="033AD215-31E3-7E8E-AD03-F04E68B6D920" referredColumn="D2BC2BCA-EDF2-90A0-9337-CB76678B432A"/>
+</associations>
+</Column>
+<Column name="id_despesa" id="03FC7083-9C1E-ED64-4DE8-9D79EBF298F1">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>499E1510-F01C-8DE0-C0C7-BD03DF4CE3B7</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289CD86B-CA11-A2A3-DA11-B262FBD96933" referredColumn="C9C6114C-3E54-8395-2239-484D088FDA49"/>
+</associations>
+</Column>
+<Column name="qtd_consumo_kwh" id="45A5CE65-D0C1-15FC-FDA5-D13589B9CD3D">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>87D70B69-00A1-4787-9343-AA10345449DA</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_consumo_kwh" id="54036B71-781F-93FA-2F58-69160B6ABE9B">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>D4118FF3-FCF1-46A1-F4B4-F4E89F7B7B27</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_medicao" id="630B642F-3FB9-BC27-9D49-B262958DAB8C">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>8FDC1AB0-4D1C-68B0-249A-38295CBA409E</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D1275C9-CE71-E5C3-9532-128086FE0504" name="T_CONSUMO_ENERGIA_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>1116AF59-21E0-AB45-1202-E9E039FD0316</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F711EA8E-BB86-645C-8F04-DD12376882D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D105A666-E4A7-661C-1BCB-4121128121C9" name="T_CONSUMO_ENERGIA__IDX">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>518D1154-CCB9-BD55-CD0A-45203592C90F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42138673-C082-B4A7-D865-CE0C63A70366"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50E75FFC-C0F0-0480-81C5-D37B1745DE0F" name="T_CONSUMO_ENERGIA_T_DESPESA_ENERGIA_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>58A56C16-53B6-60A4-E266-F0CB4C158A33</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03FC7083-9C1E-ED64-4DE8-9D79EBF298F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3339CDD0-D66E-EE4C-7AC1-44BB547EA2F9" name="T_CONSUMO_ENERGIA_T_USUARIO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>518D1154-CCB9-BD55-CD0A-45203592C90F</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42138673-C082-B4A7-D865-CE0C63A70366"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

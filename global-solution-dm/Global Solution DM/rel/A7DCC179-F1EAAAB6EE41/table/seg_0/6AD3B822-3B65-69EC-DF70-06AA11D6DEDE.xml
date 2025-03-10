@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AD3B822-3B65-69EC-DF70-06AA11D6DEDE" name="T_ENDERECO">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>62EA3ADA-9ED5-489E-0B95-5CDBB4F76EE2</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="5A85F97D-F15D-895A-66F3-DE3307E092E4">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>469D1D14-71CA-F903-72B9-73DD1C94E230</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="66717A6B-D01D-3910-5D03-8ECE009C4E17">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>C8710A76-6115-A402-AED6-D4FCE79EBC35</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2195C32-878B-B0F7-C01D-C3D9ACC0007A" referredColumn="D2BC2BCA-EDF2-90A0-9337-CB76678B432A"/>
+</associations>
+</Column>
+<Column name="ds_logradouro" id="20FEED57-A98A-32DA-2132-8DB58E4A9057">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>F489EB93-EDD3-2906-E7D5-C6F7E0F96F81</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_rua" id="AD055ED9-D460-A935-EA11-F448E5EBA91C">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>7FE1FE7A-1270-86D3-32A6-7FD82C969A2B</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_endereco" id="FBCCF5DE-4DD8-8501-6504-4DDC74D8F5CF">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>46F6CDB9-9E0D-5959-64C0-60BC800B5EA3</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento_endereco" id="8EE00748-B7C2-81F3-7CE0-66CD2231F1CB">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>B8CAD352-E137-0FA4-4B0F-1A73512C2045</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="A5654008-7ACE-57E6-AE4E-08F2D2CDD8B2">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>177DD4B9-6469-DEFC-31CB-F55A03B334FB</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="E9193359-5A86-4FF6-FB30-0F7399E9A886">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>4AFDFA84-CA6F-C071-67C3-E7D31D79FF08</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="A58054EC-779C-E8CE-146F-AD951CA098A8">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>79CA49FA-A7C4-CE25-D362-19A297316078</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0854EE4-23D3-CD35-A609-AC4A34BC693E" name="T_ENDERECO_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>2CC7E37C-7030-2EA8-DF54-9A8EBCFBA903</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A85F97D-F15D-895A-66F3-DE3307E092E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F82E9846-7FFC-24CA-8C97-9C5F58DAA4A7" name="T_ENDERECO__IDX">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1E46A3D3-7EAE-073D-ED56-D120D922A21A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66717A6B-D01D-3910-5D03-8ECE009C4E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E34D32E-E445-21FC-B2AB-E17AF02DD4B6" name="T_ENDERECO_T_USUARIO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>1E46A3D3-7EAE-073D-ED56-D120D922A21A</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66717A6B-D01D-3910-5D03-8ECE009C4E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

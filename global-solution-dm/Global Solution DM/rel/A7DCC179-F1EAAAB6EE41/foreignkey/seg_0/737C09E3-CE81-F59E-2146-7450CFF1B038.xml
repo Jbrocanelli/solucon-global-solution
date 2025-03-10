@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="737C09E3-CE81-F59E-2146-7450CFF1B038" containerWithKeyObject="D78C5271-2402-C6FA-4A1B-947F73A18B9B" localFKIndex="E6895B5C-44DD-5F8F-16AC-1020DEA4099E" name="T_VISITA_TECNICA_T_TECNICO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>19309136-2B8E-2477-6FE5-1B5BA0C8DFA6</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<referredTableLongName>T_TECNICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E46874A7-6529-3BB3-81AC-D958793B826A</referredTableID>
+<keyObject>2D51DA4D-7B2D-A425-F754-7BA4EC948320</keyObject>
+<referredKeyID>2D51DA4D-7B2D-A425-F754-7BA4EC948320</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tecnico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

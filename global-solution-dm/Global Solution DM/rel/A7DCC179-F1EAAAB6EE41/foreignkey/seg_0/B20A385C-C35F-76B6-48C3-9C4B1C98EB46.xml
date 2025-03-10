@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B20A385C-C35F-76B6-48C3-9C4B1C98EB46" containerWithKeyObject="A97779F4-3001-58F0-8D44-6AA7783D9481" localFKIndex="5DC83CC9-F12A-6897-A8EF-97B1D7175200" name="T_EQUIPAMENTOS_MEDIDO_T_DISPOSITIVO_MEDIDOR_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>EDDAB30D-C2E8-5BF0-77EC-39AB64F5A5BD</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<referredTableLongName>T_DISPOSITIVO_MEDIDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7CCF2DE-48C0-F685-31F6-C16089E71272</referredTableID>
+<keyObject>BB636F51-7765-2EF9-0640-3F12F0E65219</keyObject>
+<referredKeyID>BB636F51-7765-2EF9-0640-3F12F0E65219</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dispositivo_medidor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

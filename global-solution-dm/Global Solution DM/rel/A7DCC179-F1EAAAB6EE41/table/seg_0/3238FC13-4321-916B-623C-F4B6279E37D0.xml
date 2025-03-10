@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3238FC13-4321-916B-623C-F4B6279E37D0" name="T_CHATBOT_INTERACAO">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>F5FE934F-3916-C3DC-911C-BE5BD37304FC</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_chatbot" id="21EBFED7-BD90-8E21-22B5-5091B4C6C341">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>F7E41E89-613E-C4B7-0759-CCEFABAFF60C</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="52563367-E4C7-AAA9-2331-86803DD95732">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>A4CFA960-0051-CF9D-FA2A-F3FD1DA7DE56</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D13C950-8EED-E285-07F0-4A2B39C60028" referredColumn="D2BC2BCA-EDF2-90A0-9337-CB76678B432A"/>
+</associations>
+</Column>
+<Column name="id_dica_consumo" id="EDAD923F-BA90-C2DC-2656-3DE06656B6FB">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>5D2A6834-E36B-AF21-9653-9767EEE66992</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D28C9F42-D34C-B402-A486-1A8B5CAFCDD9" referredColumn="F49916DA-2945-5333-C5B8-B2099AF2C762"/>
+</associations>
+</Column>
+<Column name="id_visita_tecnica" id="6CE985AF-6B5E-CD31-D723-F618F5E31963">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>3C24496E-1AEC-6A00-EEE0-2F5E65909535</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43A09D88-2B60-649E-0670-A6BACD4DD058" referredColumn="4478689C-4B60-6DC6-C397-DDBB594797E6"/>
+</associations>
+</Column>
+<Column name="ds_interacao" id="7FF654C6-C078-19D3-923E-C72DC6091FCA">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>017C6301-C90C-010E-9F46-9100B357EEBD</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_interacao" id="201A6FD1-968E-E43E-A84D-9C06F93D60B7">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>FD4432B5-6F5B-BFAC-63F7-E53A4CBD37DB</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E5F89EE-EB09-060E-55AD-830EF911A54C" name="T_CHATBOT_INTERACAO_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>0CD7C8C9-3E98-B991-DC8C-195835F62E12</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21EBFED7-BD90-8E21-22B5-5091B4C6C341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6705402E-01D9-4F97-CCB5-D2659B48EA32" name="T_CHATBOT_INTERACAO_T_DICA_CONSUMO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>88ED0554-4B36-A370-3990-54C70471C96B</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAD923F-BA90-C2DC-2656-3DE06656B6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F26108E0-DF91-BF93-24A3-0780CEB89384" name="T_CHATBOT_INTERACAO_T_VISITA_TECNICA_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>60CAD254-9304-214A-5BA1-BBD4FAED7BD9</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE985AF-6B5E-CD31-D723-F618F5E31963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06C6BFEC-F167-90B4-1FAF-BA4481FCC927" name="T_CHATBOT_INTERACAO_T_USUARIO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>76C179F8-9A68-B474-F862-6A7CA35C1BA8</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52563367-E4C7-AAA9-2331-86803DD95732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D78C5271-2402-C6FA-4A1B-947F73A18B9B" name="T_VISITA_TECNICA">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>81EE930A-E166-3D53-2F3D-B108F4BBF731</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_visita_tecnica" id="4478689C-4B60-6DC6-C397-DDBB594797E6">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>DE468AC4-521B-AED1-25D4-9245FBB2FA3C</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tecnico" id="D85100A5-74A0-F6B9-B3F0-DB70B75A4DD2">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>AFD06810-7601-5B01-CDC1-2AE368E39D8A</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="737C09E3-CE81-F59E-2146-7450CFF1B038" referredColumn="0B0AC93A-27CD-71CD-9FB6-D8C1D19C1C60"/>
+</associations>
+</Column>
+<Column name="dt_visita_tecnica" id="AC5973F2-CD9C-53A3-E358-07B1EA00C7BE">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>B865E49B-7020-D7CE-C806-E8D6859301C9</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_visita_tecnica" id="33634324-A95E-60A8-5E5B-6ECB46B59F14">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>4B1A5F4D-86E3-4EC7-F419-AB30B33E6A17</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC75DF24-0C23-6E3A-6C20-03662AD6F9AB" name="T_VISITA_TECNICA_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>E8DAE6DA-A77A-93F1-D135-07F12C0EEF4E</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4478689C-4B60-6DC6-C397-DDBB594797E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6895B5C-44DD-5F8F-16AC-1020DEA4099E" name="T_VISITA_TECNICA_T_TECNICO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>19309136-2B8E-2477-6FE5-1B5BA0C8DFA6</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D85100A5-74A0-F6B9-B3F0-DB70B75A4DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

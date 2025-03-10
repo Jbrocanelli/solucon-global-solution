@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7CCF2DE-48C0-F685-31F6-C16089E71272" name="T_DISPOSITIVO_MEDIDOR">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>B1BF074A-372E-0950-ED82-8C7B4E93A75F</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dispositivo_medidor" id="5002F00B-0245-4B3B-8FF7-34F6D53BC144">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>479EA20B-EE61-9B06-A761-53956B3FEE34</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_equipamento" id="9399CF84-559B-68BF-7586-1A15716EFBA9">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>BF6006CC-549C-AD97-9076-028B06C7E1EE</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ED03A50-3954-2E74-86C3-0B7930195447" referredColumn="0A33E65F-1849-A869-54ED-5D7539F80B69"/>
+</associations>
+</Column>
+<Column name="id_ambiente" id="C6357392-00BD-AB38-1953-98E55B769487">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>F81E5032-4BEF-3402-04BE-A5EFD5432DCD</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="868E3DE9-4CB0-ECD6-2B42-B1B1CFD066B1" referredColumn="F332F015-7B90-67D5-40C4-46145D07A4C0"/>
+</associations>
+</Column>
+<Column name="nr_serie_dispositivo" id="F1FE936F-DDEF-094D-3B7B-226E142285CE">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>01DD0908-C41A-A140-5BB0-705692195A83</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_instalacao" id="F1BF8415-6678-D3C6-5E80-6B334A07D79A">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>9C38F2A2-1728-0BFF-26B5-3B754C4B508D</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_dispositvo" id="B0C73EC5-9EE7-F5B1-57FE-48C8E629272B">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>CA4B1441-19AA-D7C5-939D-1D0427AA9D4D</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB636F51-7765-2EF9-0640-3F12F0E65219" name="T_DISPOSITIVO_MEDIDOR_PK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>B46BDA1C-02E9-DD45-40D1-E4B95E81637B</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5002F00B-0245-4B3B-8FF7-34F6D53BC144"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F85791D-CEBF-A702-69E5-3910EE826F3C" name="T_DISPOSITIVO_MEDIDOR__UN">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:50:58 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1FE936F-DDEF-094D-3B7B-226E142285CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07761216-C9D6-FF6F-96CD-A9CDF5E0A79B" name="T_DISPOSITIVO_MEDIDOR__IDX">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EDDAB30D-C2E8-5BF0-77EC-39AB64F5A5BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9399CF84-559B-68BF-7586-1A15716EFBA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBE118A2-561B-F3AD-C0AD-C8ED8F24FAAD" name="T_DISPOSITIVO_MEDIDOR_T_EQUIPAMENTOS_MEDIDO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>EDDAB30D-C2E8-5BF0-77EC-39AB64F5A5BD</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9399CF84-559B-68BF-7586-1A15716EFBA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10EED0C2-B1D6-DF31-F01E-F6DCD855190B" name="T_DISPOSITIVO_MEDIDOR_T_AMBIENTE_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>09DB096A-0E1C-95D2-B3C5-F605ECEDC181</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6357392-00BD-AB38-1953-98E55B769487"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

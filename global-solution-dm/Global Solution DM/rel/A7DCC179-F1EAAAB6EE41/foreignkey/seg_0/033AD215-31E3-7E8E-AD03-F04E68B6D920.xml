@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="033AD215-31E3-7E8E-AD03-F04E68B6D920" containerWithKeyObject="19CF8301-3B68-8E4E-33AD-CA364881960D" localFKIndex="3339CDD0-D66E-EE4C-7AC1-44BB547EA2F9" name="T_CONSUMO_ENERGIA_T_USUARIO_FK">
+<createdBy>joao2</createdBy>
+<createdTime>2024-11-20 17:44:36 UTC</createdTime>
+<generatorID>518D1154-CCB9-BD55-CD0A-45203592C90F</generatorID>
+<ownerDesignName>Global Solution DM</ownerDesignName>
+<referredTableLongName>T_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2393F355-9A9F-F4E1-7ACB-2DB939776B01</referredTableID>
+<keyObject>8765AAF0-D47E-32DE-893A-BBB5D759A818</keyObject>
+<referredKeyID>8765AAF0-D47E-32DE-893A-BBB5D759A818</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
